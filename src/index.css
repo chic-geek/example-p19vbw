@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Stolen from a previous pen to enable full-height elements
+ * with a static footer.
+ * https://codepen.io/cbrett/pen/NWpzaVK
+ */
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
